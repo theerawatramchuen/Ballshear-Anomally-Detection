@@ -17,8 +17,8 @@ import matplotlib.gridspec as gridspec
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import MinMaxScaler
 
-df_org = pd.read_csv('wirepull.csv')
-df = pd.read_csv('wirepull.csv')
+df_org = pd.read_csv('ballshear.csv')
+df = pd.read_csv('ballshear.csv')
 
 to_drop = ['LSL','USL','Parameter.Recipe','PROJECT_TYPE']
 df_org.drop(to_drop, inplace=True, axis=1)
@@ -60,10 +60,9 @@ df_org['Y'] = Y.tolist()
 df_org['SCORE'] = SCORE.tolist()
 
 #df1.to_excel("output.xlsx") 
-df_org.to_csv('wirepull_anomality.csv')
+df_org.to_csv('ballshear_anomality.csv')
 
 sns.pairplot(df)
-
 #############################
 # Common dataframe command 
 #-------------------------
