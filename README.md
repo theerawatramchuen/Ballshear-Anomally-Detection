@@ -4,3 +4,5 @@ https://towardsdatascience.com/isolation-forest-the-anomaly-detection-algorithm-
 
 ## Ballshear Visualization
 ![](https://github.com/theerawatramchuen/Ballshear-Anomally-Detection/blob/main/ballshear.jpg)
+## Wirepull Visualization
+![](https://github.com/theerawatramchuen/Ballshear-Anomally-Detection/blob/main/wirepull.jpg)
